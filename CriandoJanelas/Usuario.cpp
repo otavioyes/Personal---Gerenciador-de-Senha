@@ -26,32 +26,32 @@ Usuario::Usuario(std::string NomeCompleto, std::string Email, std::string Senha,
 
 
 //MÉTODOS ACESSORES GET
-std::string Usuario::GetNomeCompleto()
+std::string Usuario::GetNomeCompleto() const
 {
 	return NomeCompleto;
 }
 
-std::string Usuario::GetEmail()
+std::string Usuario::GetEmail() const
 {
 	return Email;
 }
 
-std::string Usuario::GetSenha()
+std::string Usuario::GetSenha() const
 {
 	return Senha;
 }
 
-std::string Usuario::GetDataDeNascimento()
+std::string Usuario::GetDataDeNascimento() const
 {
 	return DataDeNascimento;
 }
 
-std::string Usuario::GetSexo()
+std::string Usuario::GetSexo() const
 {
 	return Sexo;
 }
 
-std::string Usuario::GetTelefone()
+std::string Usuario::GetTelefone() const
 {
 	return Telefone;
 }

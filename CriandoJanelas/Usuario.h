@@ -34,12 +34,12 @@ public :
 	
 	//Usuario(std::string NomeCompleto, std::string Email, std::string Senha, std::string DataDeNascimento, std::string Telefone);
 
-	std::string GetNomeCompleto();
-	std::string GetEmail();
-	std::string GetSenha();
-	std::string GetDataDeNascimento();
-	std::string GetSexo();
-	std::string GetTelefone();
+	std::string GetNomeCompleto() const;
+	std::string GetEmail() const;
+	std::string GetSenha() const;
+	std::string GetDataDeNascimento() const;
+	std::string GetSexo() const;
+	std::string GetTelefone() const;
 
 	void SetNomeCompleto(std::string NomeCompleto);
 	void SetEmail(std::string Email);
