@@ -24,6 +24,7 @@ private:
 
 	//CONSTRUTOR
 public :
+	Usuario();
 	Usuario(std::string NomeCompleto,
 			std::string Email,
 			std::string Senha,

@@ -3,6 +3,16 @@
 #include <iostream>
 
 
+Usuario::Usuario()
+{
+	NomeCompleto = "";
+	Email = "";
+	Senha = "";
+	DataDeNascimento = "";
+	Sexo = "";
+	Telefone = "";
+}
+
 //IMPLEMENTAÇÃO DO CONSTRUTOR
 Usuario::Usuario(std::string NomeCompleto, std::string Email, std::string Senha, std::string DataDeNascimento, std::string Sexo, std::string Telefone)
 {
@@ -10,6 +20,7 @@ Usuario::Usuario(std::string NomeCompleto, std::string Email, std::string Senha,
 	Email = Email;
 	Senha = Senha;
 	DataDeNascimento = DataDeNascimento;
+	Sexo = Sexo;
 	Telefone = Telefone;
 }
 

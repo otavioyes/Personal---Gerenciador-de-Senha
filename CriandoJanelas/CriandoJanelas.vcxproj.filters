@@ -21,12 +21,18 @@
     <ClInclude Include="RegistrandoUsuario.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CadastroUsuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Usuario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RegistrandoUsuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CadastroUsuario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

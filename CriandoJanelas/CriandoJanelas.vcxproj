@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CadastroUsuario.h" />
     <ClInclude Include="RegistrandoUsuario.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CadastroUsuario.cpp" />
     <ClCompile Include="RegistrandoUsuario.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
