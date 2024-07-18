@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CadastroUsuario.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="RegistrandoUsuario.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>

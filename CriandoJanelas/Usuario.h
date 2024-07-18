@@ -25,12 +25,12 @@ private:
 	//CONSTRUTOR
 public :
 	Usuario();
-	Usuario(std::string NomeCompleto,
-			std::string Email,
-			std::string Senha,
-			std::string DataDeNascimento,
-			std::string Sexo,
-			std::string Telefone);
+	Usuario(const std::string NomeCompleto,
+			const std::string Email,
+			const std::string Senha,
+			const std::string DataDeNascimento,
+			const std::string Sexo,
+			const std::string Telefone);
 	
 	//Usuario(std::string NomeCompleto, std::string Email, std::string Senha, std::string DataDeNascimento, std::string Telefone);
 
@@ -41,12 +41,13 @@ public :
 	std::string GetSexo() const;
 	std::string GetTelefone() const;
 
-	void SetNomeCompleto(std::string NomeCompleto);
-	void SetEmail(std::string Email);
-	void SetSenha(std::string Senha);
-	void SetDataDeNascimento(std::string DataDeNascimento);
-	void SetSexo(std::string Sexo);
-	void SetTelefone(std::string Telefone);
+
+	void SetNomeCompleto(const std::string& NomeCompleto);
+	void SetEmail(const std::string& Email);
+	void SetSenha(const std::string& Senha);
+	void SetDataDeNascimento(const std::string& DataDeNascimento);
+	void SetSexo(const std::string& Sexo);
+	void SetTelefone(const std::string& Telefone);
 	
 };
 

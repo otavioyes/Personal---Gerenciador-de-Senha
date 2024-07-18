@@ -31,7 +31,7 @@ void CadastroUsuario(RegistrandoUsuario& registro)
 	std::getline(std::cin, Telefone);
 
 	Usuario usuario(Nome, Email, Senha, Nascimento, Sexo, Telefone);
-	registro.adicionarUsuario(usuario);
+	registro.AdicionaUsuario(usuario);
 
 
 }

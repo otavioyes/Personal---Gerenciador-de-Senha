@@ -29,10 +29,13 @@
     <ClCompile Include="Usuario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RegistrandoUsuario.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CadastroUsuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistrandoUsuario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
