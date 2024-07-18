@@ -48,6 +48,4 @@ public :
 	void SetDataDeNascimento(const std::string& DataDeNascimento);
 	void SetSexo(const std::string& Sexo);
 	void SetTelefone(const std::string& Telefone);
-	
 };
-

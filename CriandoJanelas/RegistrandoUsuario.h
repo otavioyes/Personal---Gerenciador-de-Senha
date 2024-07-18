@@ -18,4 +18,9 @@ public:
     void CarregarUsuarios(const std::string& arquivoTxt);
     void SalvarUsuarios(const std::string& arquivoTxt);
  
+    bool ValidaEmail(const std::string& email) const;
+    bool ValidaSenha(const std::string& senha) const;
+    bool ValidarDataDeNascimento(const std::string& DataDeNascimento) const;
+    bool ValidaSexo(const std::string& Sexo);
+    bool ValidarTelefone(const std::string& Telefone) const;
 };
